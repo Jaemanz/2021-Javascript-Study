@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>daily challenges</title>
+    <script>
+            function showButton(){
+                var button = document.getElementById("funnybutton");
+                style.display = "block";
+            }
+            function embiggen(){
+                var image = document.getElementById('funnyPic');
+                style.display =   ;
+            }
+
+    </script>
 </head>
 <body>
-<script>
+    <button type="button" Id="funnybutton" onMouseOver="embiggen()" style="display: none">PLS DONT CLICK PIC TOO GOOD!!</button>
+    <div>
+        <img src="Applications/media/patsack.jpg" width="600px" id="funnyPic"/>
+        <div style="background:cyan" id="text" onClick="showButton()">MY DRIVEWAY LOADED</div>
 
-    var line = "";
-    for (var p = 0; p < 0; p++) {
-        console.log("*" + p);
-    }
-    var h = ""
-    for (var p = 0; p < 0; p++) {
-            h+= "*";
-
-    }
-    console.log(h);
-</script>
 </body>
 </html>

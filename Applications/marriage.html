@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marrige of UI and Programming</title>
+    <script>
+        function grades(){
+            var yrs = document.getElementById("yrs");
+            if (yrs.value == 9){
+                alert("Freshman!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>What is your High School Classifaction Status</h1>
+    How many years ave you been in school? <br />
+    <input type="text" name="yrs" id="yrs" onChange="grades()"/><br />
+
+</body>
+</html>
